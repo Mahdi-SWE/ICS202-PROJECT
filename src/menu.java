@@ -11,7 +11,7 @@ public class menu {
 				"4.	Modify the meanings of a word", "5.	Print all words with a given prefix and their meanings", 
 				"6.	Print the contents of the dictionary sorted in lexicographic order", "7.	Exit"};
 
-		DICTIONARY<String> dictionary = new DICTIONARY<String>("C:\\Users\\mahoo\\Desktop\\university\\ics202\\project\\dictionary.txt");
+		DICTIONARY<String> dictionary = new DICTIONARY<String>("res\\dictionary.txt");
 
 		String line;
 		String word;
